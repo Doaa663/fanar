@@ -1,0 +1,435 @@
+:root {
+    --animate-duration: 3s;
+    --animate-repeat: 2;
+  }
+body {
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+    letter-spacing: 1px;
+}
+
+.title{
+    text-align: right;
+    margin-right: 6%;
+    
+}
+.title:hover {
+    cursor: pointer;
+}
+
+
+.header {
+    background-image: url('ggggg.jpg') ;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    padding-bottom: 50px;
+    top: -98px;
+
+    
+}
+.center-content {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.opacity   {
+    background-color:rgba(8,6,6,0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.overoffer  {
+    background-color: rgba(8,6,0,0.20);
+    position: absolute;
+   height: 100%;
+    width: 100%;
+    z-index: 1;
+    transition: all 0.7s ease-in-out;
+    top: 0;
+   
+}
+
+
+.logo {
+    border-style: double;
+}
+.logo , .lang-switcher ,.main-content , .bg-decoration {
+    z-index: 3;
+}
+
+form {
+    background: none;
+    padding: 0;
+}
+
+.passport {
+    width: 400px !important;
+    bottom: 0;
+    position: absolute;
+    right: 0
+   
+}
+.sub-title {
+    text-align: right;
+    margin: 28px 0 0 0 ;
+}
+.header .sub-title , .header .title , .text-left {
+   
+    text-align: center!important;
+}
+
+.btn-primary:hover {
+   background-color: goldenrod;
+   color: black;
+
+}
+.btn-primary {
+    color : goldenrod !important;
+    background-color: #121a2d;
+    box-shadow: 1px 3px 10px goldenrod;
+    font-size: 20px;
+
+}
+.text-golden {
+    color: goldenrod ;
+}
+.header .title-holder {
+    border: none;
+}
+
+.text-shadow {
+  text-shadow: 4px 3px 1px goldenrod ; 
+
+}
+
+
+
+
+.all-sections {
+    
+      padding: 0;
+    
+     
+    
+      
+  }
+  .all-sections .type{
+     
+       height: 460px;
+      padding-left: 6px;
+     
+      text-align: right;
+      margin-bottom: 100px;
+  }
+  
+
+ .title-type:hover >.overoffer {
+      display: none;
+
+  }
+ 
+  @media (min-width: 1200px){
+  .all-sections .type {
+      width: 30.333333%;
+  }
+  }
+  .all-sections .type img{
+    margin-top: 13px;
+    padding-top: 18px;
+  }
+  .all-sections .col-lg-4 {
+  
+         border-right: 2px solid darkgoldenrod; 
+      padding-right: 0;
+  }
+  
+  
+   .all-sections h2 {
+        background-color: darkgoldenrod;
+      
+       color: #FFF;
+       font-size: 20px; 
+       text-align: right;
+           padding: 5px;
+     
+  }
+  
+  h3{
+      font-weight: 100;
+  }
+ 
+  .all-sections h2 a{
+      text-decoration: none;
+      color: #FFF;
+      font-weight: bold
+  }
+  .all-sections h2 a:hover{
+      color: orange;
+      transition: 0.5s;
+  }
+  .all-sections .title-type{
+      background: #FFF;
+       margin-top: -9px;
+       background: rgba(255,255,255,0.2) ;
+       transition: all 1.2s ease-in-out;
+    height: 92%;
+   
+  }
+
+  .title-type:hover > div img {
+      transform: scale(1.1,1.1);
+  }
+  .all-sections .title-type img{
+      height: 110px
+  }
+  .all-sections .title-type a{
+      text-decoration: none;
+      display: block;
+      padding: 5px;
+      color: #333;
+  }
+  
+  .all-sections .type .type-list ul  {
+      margin-top: 10px;
+       
+        text-align: right;
+      list-style: circle;
+      direction: rtl;
+  }
+  .all-sections .type .type-list ul li {
+    font-size: 16px;
+    font-weight: 400;
+  
+    
+      text-decoration: none; 
+  }
+  .all-sections .type .type-list ul li a{
+       text-decoration: none;
+  }
+
+  .all-sections .title-type i{
+      float: left;
+  }
+  
+  .all-sections .more {
+      height: 54px;
+      width: 75px;
+      text-align: center;
+      float: right;
+      background: #b8860bb8;
+      margin-right: 23px;
+      color: #FFF;
+         bottom: -51px;
+      position: absolute;
+      right: 0;
+      
+    
+  }
+    
+  
+  
+  
+  .all-sections .more a{
+      text-decoration: none;
+      color: #FFF;
+       
+  }
+  .all-sections .more a:hover{
+      color: orange
+  }
+  
+  .all-sections .more:before {
+      content: '';
+      position: absolute;
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+      border: 2px solid darkgoldenrod;
+       right: -31px;
+      top: -15px;
+     background-color:#121a2d;
+      
+  }
+  
+  .all-sections .more:after {
+      content: '';
+      position: absolute;
+      width: 25px;
+      height: 15px;
+      border-bottom: 2px solid darkgoldenrod;
+      border-right: 2px solid darkgoldenrod;
+      right: -25px;
+      top: 3px}
+  .project-img
+{
+    position: relative;
+      width: 100%;
+      height:100% !important ;
+      margin: 0 !important;
+      padding: 0 !important;
+      transition: 0.5s;
+  }
+  
+
+  .img-box{
+    transition: all 0.7s ease-in-out ;
+    height: 120px;
+    overflow: hidden;
+  }
+
+
+  .turkish-citizenship-news .new-box.video .box-body a .card .card-title {
+      background:rgba(8,6,6,0.48);
+      position: absolute;
+  }
+  .card:hover > span.play-button {
+      transform: scale(1.2,1.2);
+      color: darkred !important ;
+  }
+  .turkish-citizenship-news .new-box.video .box-body a .card{
+      transition: all 0.3s ease-in;
+
+     
+   
+  }
+  .turkish-citizenship-news .new-box.video .box-body a .card:hover{
+     top: -10px;
+     box-shadow: 1px 2px 11px darkgoldenrod;
+    
+  }
+  .articles .card {
+       background: transparent;
+       margin-bottom: 30px;
+       overflow: hidden;
+       cursor: pointer;
+  }
+  .articles .card:hover  .card-img-top {
+      transform: scale(1.1,1.1);
+  }
+  .articles .card:hover .card-body p {
+      color: goldenrod;
+      font-weight: bold;
+  }
+  .card-img-top {
+      height: 177px;
+      transition: 0.4s;
+ 
+  }
+  .card-body p {
+      transition: 0.3s;
+      font-size: 17px;
+     
+  }
+  .box-body {
+    margin-top: 42px;
+     transition: all 0.3s ease-in;
+  }
+  .with-sub-title {
+    position: absolute;
+    width: 70px;
+    right: -1px;
+    background: #956c09ab
+  }
+
+  .video  {
+      transition: 0.5s;
+  }
+.video  .with-sub-title , .box-title .with-sub-title , .services-section  .text-center .with-sub-title{
+    right: 8%;
+
+}
+
+.box-title{
+    transition: 0.5s;
+}
+
+
+    .fab {
+        font-size: 35px;
+        margin: 5px;
+    }
+    
+    .services-list li {
+        font-size: 18px !important;
+    }
+    
+
+    footer {
+        margin: 80px 0  40px 0 ;
+        background-color: #292954a6;
+        padding: 25px;
+    }
+     footer .footer-logo {
+        border-radius: 23px;
+        margin-top: -80px;
+        background: #222548;
+     }
+    .copy-right {
+        margin-top: 22%;
+    }
+    .footer-icons {
+        margin-top: 7%;
+    }
+
+    .fa-facebook-square {
+        color: rgb(37, 37, 141);
+        background-color: white;
+        transition: 0.3s;
+        
+    }
+    .fa-telegram {
+        color: skyblue;
+        transition: 0.3s;
+    }
+    .fa-google-plus-square {
+        color: rgb(207, 87, 87);
+        transition: 0.3s;
+    }
+    .fab {
+        cursor: pointer;
+    }
+
+    .fab:hover {
+     transform: scale(1.2,1.2);
+    }
+    .contant-chat{
+    text-align: left;
+    left: 0;
+    z-index: 4;
+    font-size: 15px;
+    margin-left: 18px;
+    bottom: 33px;
+    position: fixed;
+    background-color: #121a2d40;
+    padding: 20px 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    transition: 0.7s;
+    border: 1px solid darkgoldenrod;
+    
+  
+   
+    }
+    .chat-icon .passport-icon {
+        margin: 30px 0 0 10px;
+    }
+    .chat {
+        display: none;
+        transition:all  0.4s ease-in;
+    }
+    #chat-icon {
+        display: block;
+        text-align: center;
+        transition: 0.6s;
+    }
+
+    #closeButton {
+        margin: 11px;
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
+    background: rgba(184, 135, 11, 0.808);
+    }
